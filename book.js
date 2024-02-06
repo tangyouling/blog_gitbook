@@ -27,7 +27,7 @@ module.exports = {
     // gitbook-plugin-theme-lou 主题插件配置
     'theme-lou': {
       color: '#2096FF', // 主题色
-      favicon: 'assets/favicon.ico', // 网站图标
+      favicon: 'assets/favicon.png', // 网站图标
       logo: 'assets/logo.png', // Logo图
       //copyrightLogo: 'assets/copyright.png', // 背景水印版权图
       autoNumber: 3, // 自动给标题添加编号(如1.1.1)
