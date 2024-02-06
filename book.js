@@ -9,6 +9,7 @@ let plugins = [
   'back-to-top-button',
   'search-pro',
   'flexible-alerts',
+  'intopic-toc',
 ];
 if (process.env.NODE_ENV == 'dev') plugins.push('livereload');
 
