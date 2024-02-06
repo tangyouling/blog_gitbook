@@ -29,6 +29,7 @@ source /etc/profile
 # 6. 查看node版本是否为v10.21.0
 node -v
 ```
+
 # 3 安装 gitbook
 ```shell
 # 使用普通用户权限
@@ -39,5 +40,9 @@ npm install -g gitbook-cli
 # 默认将会安装gitbook 3.2.3，将等待一段时间
 gitbook -V
 ```
-# 4 可能存在问题
+
+# 4 gitbook 插件
+详细使用参考：https://smoothies.com.cn/gitbook-docs/Gitbook/Plugins/
+
+# 5 可能存在问题
 因购买服务器内存较小，执行个gitboot -V 时将导致服务器oom，一直安装失败，详细解决办法见[npm install 内存不足oom时通过创建swap分区](http://tangyouling.com/linux-environment/create-swap.html)

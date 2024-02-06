@@ -9,7 +9,9 @@ let plugins = [
   'back-to-top-button',
   'search-pro',
   'flexible-alerts',
-  'intopic-toc',
+  'intopic-toc', //添加文章章节预览
+  'github', //添加github图标
+
 ];
 if (process.env.NODE_ENV == 'dev') plugins.push('livereload');
 
@@ -20,6 +22,10 @@ module.exports = {
   description: '个人网站示例项目',
   plugins,
   pluginsConfig: {
+    // github 插件配置
+    github: {
+      url: 'https://github.com/tangyouling/blog_gitbook.git',
+    },
     // gitbook-plugin-code 插件配置
     code: {
       copyButtons: true, // code插件复制按钮
