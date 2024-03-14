@@ -4,3 +4,7 @@
   - [网站搭建](./linux-environment/website-construction.md)
   - [Gitbook 安装](./linux-environment/gitbook-install.md)
   - [创建swap分区](./linux-environment/create-swap.md)
+  - [Ubuntu 22.04 安装蓝信](./linux-environment/lanxin-install-ubuntu.md)
+
+- [Linux 问题](./linux-issue/README.md)
+  - [机器重启长时间卡在swap回收过程](./linux-issue/swapoff-timeout.md)
