@@ -18,3 +18,8 @@
 - [Debug 相关](./debug/README.md)
   - [内存分配剖析特性](./debug/memory_allocation-profiling.md)
   - [ketones工具原理分析](./debug/ketones_principle_analysis.md)
+
+- [LoongArch 相关](./loongarch/README.md)
+  - [loongarch qemu archlinux搭建](./loongarch/loongarch_qemu_archlinux_built.md)
+  - [kdump工具链测试指导手册](./loongarch/kdump_manual.md)
+  - [kdump服务](./loongarch/kdump_service.md)
