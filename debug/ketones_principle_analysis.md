@@ -1,7 +1,5 @@
 # <center>ketones工具分析</center>
 
-[TOC]
-
 工具项目地址：https://gitee.com/openkylin/ketones/tree/master/
 
 ## 1. 历史背景
