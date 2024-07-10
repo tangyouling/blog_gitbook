@@ -17,3 +17,4 @@
 
 - [Debug 相关](./debug/README.md)
   - [内存分配剖析特性](./debug/memory_allocation-profiling.md)
+  - [ketones工具原理分析](./debug/ketones_principle_analysis.md)
