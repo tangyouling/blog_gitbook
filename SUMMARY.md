@@ -9,3 +9,6 @@
 
 - [Linux 问题](./linux-issue/README.md)
   - [机器重启长时间卡在swap回收过程](./linux-issue/swapoff-timeout.md)
+
+- [Debug 相关](./debug/README.md)
+  - [内存分配剖析特性](./debug/memory_allocation-profiling.md)
