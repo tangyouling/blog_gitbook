@@ -16,7 +16,8 @@
     - [加密格式化后挂载失败](./bcachefs/bcachefs-issue/encrypted_format-mount_failed.md)
 
 - [Debug 相关](./debug/README.md)
-  - [内存分配剖析特性](./debug/memory_allocation-profiling.md)
+  - [内存分配剖析器特性](./debug/memory_allocation-profiling.md)
+  - [kasan原理分析](./debug/kasan_principle_analysis.md)
   - [ketones工具原理分析](./debug/ketones_principle_analysis.md)
 
 - [LoongArch 相关](./loongarch/README.md)
