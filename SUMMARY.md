@@ -10,5 +10,10 @@
 - [Linux 问题](./linux-issue/README.md)
   - [机器重启长时间卡在swap回收过程](./linux-issue/swapoff-timeout.md)
 
+- [Bcachefs 文件系统](./bcachefs/README.md)
+  - [bcachefs 工作原理 -- 译《bcachefs: Principles of Operation》](./bcachefs/translate-bcachefs_principles_of_operation.md)
+  - [Bcachefs 问题](./bcachefs/bcachefs-issue/README.md)
+    - [加密格式化后挂载失败](./bcachefs/bcachefs-issue/encrypted_format-mount_failed.md)
+
 - [Debug 相关](./debug/README.md)
   - [内存分配剖析特性](./debug/memory_allocation-profiling.md)
