@@ -32,16 +32,17 @@ module.exports = {
     },
     // gitbook-plugin-theme-lou 主题插件配置
     'theme-lou': {
-      color: '#2096FF', // 主题色
+      color: '#000000', // 主题色
+      //color: '#2096FF', // 主题色
       favicon: 'assets/favicon.png', // 网站图标
       logo: 'assets/logo.png', // Logo图
       //copyrightLogo: 'assets/copyright.png', // 背景水印版权图
       autoNumber: 3, // 自动给标题添加编号(如1.1.1)
       titleColor: {
         // 自定义标题颜色(不设置则默认使用主题色)
-        h1: '#8b008b', // 一级标题颜色
-        h2: '#20b2aa', // 二级标题颜色
-        h3: '#a52a2a', // 三级标题颜色
+        //h1: '#8b008b', // 一级标题颜色
+        //h2: '#20b2aa', // 二级标题颜色
+        //h3: '#a52a2a', // 三级标题颜色
       },
       forbidCopy: false, // 页面是否禁止复制（不影响code插件的复制）
       'search-placeholder': 'Search', // 搜索框默认文本
