@@ -12,8 +12,10 @@
 
 - [Bcachefs 文件系统](./bcachefs/README.md)
   - [bcachefs 工作原理 -- 译《bcachefs: Principles of Operation》](./bcachefs/translate-bcachefs_principles_of_operation.md)
+  - [ioctl 之 FS_IOC_GETFSSYSFSPATH](./bcachefs/ioctl-fs_ioc_getfssysfspath.md)
   - [Bcachefs 问题](./bcachefs/bcachefs-issue/README.md)
     - [加密格式化后挂载失败](./bcachefs/bcachefs-issue/encrypted_format-mount_failed.md)
+    - [list_lru_add 空指针解引用(bcachefs增加SLAB_ACCOUNT标记后)](./bcachefs/bcachefs-issue/list_lru_add-null_pointer_derefer.md)
 
 - [Debug 相关](./debug/README.md)
   - [内存分配剖析器特性](./debug/memory_allocation-profiling.md)

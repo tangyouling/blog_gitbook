@@ -211,7 +211,7 @@ static void d_lru_add(struct dentry *dentry)
 
 ### 5.3.1 bcachefs中inode分配
 
-bcachefs分配inode和其它文件系统有点不一样。其它文件系统分配inode使用的alloc_inode方法（eg: ext4_alloc_inode）,而bcachefs的bch2_alloc_inode实现为BUG，不会去走该路径，而是走bch2_new_inode --> __bch2_new_inoded等路径，将在`__bch2_new_inode`中去分配inode（bch_inode_info）。
+bcachefs分配inode和其它文件系统有点不一样。其它文件系统分配inode使用的alloc_inode方法（eg: ext4_alloc_inode）,而bcachefs的bch2_alloc_inode实现为BUG，不会去走该路径，而是走`bch2_new_inode --> __bch2_new_inoded`等路径，将在`__bch2_new_inode`中去分配inode（bch_inode_info）。
 
 对比发现，其它文件系统都使用的alloc_inode_sb从inode cache池中分配，但bcachefs是使用kmem_cache_alloc从缓存池分配。
 
